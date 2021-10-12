@@ -1,0 +1,9 @@
+const inputfields= document.querySelectorAll("input");
+const btn = document.querySelector("button");
+const data=[];
+btn[].onclick=()=>{
+	let name = inputfields[0].value;
+	let email= inputfields[1].value;
+	data.push({name,email});
+	console.log(data);
+}
